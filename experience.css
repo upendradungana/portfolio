@@ -1,0 +1,83 @@
+
+/* Experience Section */
+#experience-section {
+    align-content: center;
+    margin: 8rem 0rem 4rem 4rem;
+    background-color: #242424;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 4px 0px 8px 0px #ffffff53;
+    width: 85%;
+    text-align: center;
+}
+
+/* Title */
+.experience-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+/* Tabs */
+.experience-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.exp-tab {
+    background: none;
+    border: 2px solid orange;
+    color: orange;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.exp-tab:hover,
+.exp-tab.active {
+    background-color: orange;
+    color: black;
+}
+
+/* Content Area */
+.experience-content {
+    background-color: #3a3a3a;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* Hide all content initially */
+.exp-content {
+    display: none;
+}
+
+.exp-content.active {
+    display: block;
+}
+
+/* Image Styling */
+.exp-image {
+    max-width: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Links */
+.exp-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.exp-link:hover {
+    background-color: #ff8c00;
+}
