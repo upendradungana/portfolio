@@ -1,0 +1,146 @@
+@media (max-width: 767px) {
+    /* Header and Navigation */
+    .nav_links {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    li{
+        margin-top: 1.4rem;
+    }
+
+    /* Hero Section */
+    .home_wrapper {
+        flex-direction: column;
+        gap: 2rem;
+        margin: 2rem;
+    }
+
+    #hero_text_inner {
+        margin-top: 2rem;
+    }
+
+    #hero_image {
+        width: 100%;
+    }
+
+    /* About Section */
+    #about {
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 1rem 4rem 2rem;
+        
+    }
+
+    .myPic {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .about-content {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .side_link {
+        margin: 1rem 0;
+    }
+
+    /* Projects Section */
+    #projects {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .projectPic {
+        width: 12rem;
+        height: 12rem;
+        margin: 1rem auto;
+    }
+
+    .project-content {
+        width: auto;
+        margin: 1rem 0;
+    }
+
+    /* Experience Section */
+    #experience-section {
+        margin: 2rem;
+    }
+
+    .experience-tabs {
+        flex-direction: column;
+    }
+
+    .exp-tab {
+        margin: 5px 0;
+    }
+
+    /* Contact Section */
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-box {
+        width: 80%;
+    }
+
+    /* Footer */
+    .footer-container {
+        margin: 2rem 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Header and Navigation */
+    .nav_links {
+        margin: 0 10%;
+    }
+
+    /* Hero Section */
+    .home_wrapper {
+        gap: 4rem;
+        margin: 3rem;
+    }
+
+    #hero_text_inner {
+        margin-top: 5rem;
+    }
+
+    /* About Section */
+    #about {
+        margin: 3rem;
+    }
+
+    .myPic {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    /* Projects Section */
+    #projects {
+        margin: 3rem;
+    }
+
+    .projectPic {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    /* Experience Section */
+    #experience-section {
+        margin: 3rem;
+    }
+
+    /* Contact Section */
+    .contact-box {
+        width: 45%;
+    }
+}

@@ -109,3 +109,40 @@
     display: block;
 }
 
+/* ........................................... */
+
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    #projects {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .projectPic {
+        width: 12rem;
+        height: 12rem;
+        margin: 1rem auto;
+    }
+
+    .project-content {
+        width: auto;
+        margin: 1rem 0;
+    }
+
+    .project-side-link {
+        margin: 1rem 0;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #projects {
+        margin: 3rem;
+    }
+
+    .projectPic {
+        width: 15rem;
+        height: 15rem;
+    }
+}

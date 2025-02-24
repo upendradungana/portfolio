@@ -81,3 +81,28 @@
 .exp-link:hover {
     background-color: #ff8c00;
 }
+
+
+/* ............................. */
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    #experience-section {
+        margin: 2rem;
+    }
+
+    .experience-tabs {
+        flex-direction: column;
+    }
+
+    .exp-tab {
+        margin: 5px 0;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #experience-section {
+        margin: 3rem;
+    }
+}
