@@ -1,2 +1,3 @@
 # portfolio
-resume ..... with  info ..... 
+resume ..... with  info ..... about me
+
